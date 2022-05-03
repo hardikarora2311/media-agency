@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Navbar from "../components/Navbar"
 import showreel from "./showreel.mp4"
 import ServiceList from "../components/ServiceList"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <hr></hr>
 
         <p>Perception Media is a team of creative artists who thrive to construct purposeful content that can help you build your brand. We believe in the power of communication through art. We aim to give direction to your thoughts and promise the best possible results.</p>
+        <button className="about-btn">KNOW MORE</button>
       </div>
     </section>
 
@@ -52,7 +54,14 @@ export default function Home() {
         </div>
         <h1>Our Work</h1>
         <hr></hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+      </div>
+      <div className="work-gallery">
+        <StaticImage src="https://static.wixstatic.com/media/fa8939_1a96e62662aa45d298961d19a4a8095f~mv2.png/v1/fill/w_844,h_475,q_90/fa8939_1a96e62662aa45d298961d19a4a8095f~mv2.webp" className="gallery-item"/>
+        <StaticImage src="https://static.wixstatic.com/media/fa8939_1ea636c439e548a5811ef78b0458a95b~mv2.png/v1/fill/w_845,h_475,fp_0.5_0.46,q_90/fa8939_1ea636c439e548a5811ef78b0458a95b~mv2.webp" className="gallery-item"/>
+        <StaticImage src="https://static.wixstatic.com/media/fa8939_ca204f7ec6f14f83bf56049b74bdf126~mv2.png/v1/fill/w_844,h_475,q_90/fa8939_ca204f7ec6f14f83bf56049b74bdf126~mv2.webp" className="gallery-item"/>
+        <StaticImage src="https://static.wixstatic.com/media/fa8939_4ff8db81f4f64f4d848c3137bb9f80b4~mv2.png/v1/fill/w_751,h_423,fp_0.52_0.5,q_90/fa8939_4ff8db81f4f64f4d848c3137bb9f80b4~mv2.webp" className="gallery-item"/>
+        <StaticImage src="https://i.ytimg.com/vi/wVBf39WPInc/sddefault.jpg" className="gallery-item"/>
+        <StaticImage src="https://static.wixstatic.com/media/fa8939_14dd3d2bafd64d40be2e634ee952e258~mv2.png/v1/fill/w_751,h_423,q_90/fa8939_14dd3d2bafd64d40be2e634ee952e258~mv2.webp"className="gallery-item"/>
       </div>
     </section>
 
