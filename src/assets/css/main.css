@@ -302,13 +302,12 @@ header{
 .bg-text{
     position: absolute;
     z-index: -1;
-    color: var(--shadow-text);
     font-size: 7em;
     font-weight: 700;
     top: -62px;
     right: 46%;
     color: #046d7a;
-    opacity: 12%;
+    opacity: 10%;
 
 }
 
@@ -376,15 +375,6 @@ header{
     }
 }
 
-.service-section{
-    /* background-color: #202121; */
-
-}
-
-.service h1{
-    /* color: var(--section); */
-}
-
 .service p{
     font-size: 1.2em;
     font-weight: normal;
@@ -431,20 +421,6 @@ header{
     
 }
 
-.work .bg-text{
-    color: #046d7a;
-    opacity: 12%;
-}
-
-.work h1{
-  /* color: white; */
-  font-size: 2.8em;
-}
-
-.work hr{
-    /* background-color: white; */
-}
-
 
 .work p{
         font-size: 1.2em;
@@ -453,9 +429,7 @@ header{
 }
 
 .work-section{
-    /* background-color: var(--section); */
-    /* background-color: #202121; */
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 
 }
 
@@ -471,6 +445,134 @@ header{
     width:400px;
     height: 250px;
     margin: 0.5em;
-    box-shadow: 0 0 15px 0 rgb(0 0 0 / 50%)
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 50%);
 
 }
+
+.client-slider{
+    margin-bottom: 10em;
+}
+
+
+.client{
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+@media screen and (max-width:62em) {
+    .clients-list{
+        margin-left: initial;
+    }
+    
+}
+
+.list-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.clientele{
+    height: 140px;
+    width: 150px;
+    margin: 1em;
+}
+
+@media screen and (max-width:43em) {
+    .clientele{
+        height: 110px;
+        width: 100px;
+    }
+    
+}
+
+.contact-section{
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1045%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(115%2c 239%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c599.816C121.051%2c596.175%2c262.063%2c628.901%2c352.164%2c547.978C442.643%2c466.715%2c397.137%2c314.933%2c442.725%2c202.186C485.342%2c96.788%2c599.709%2c25.714%2c609.145%2c-87.582C619.313%2c-209.665%2c577.575%2c-338.413%2c495.308%2c-429.187C413.654%2c-519.284%2c284.394%2c-537.066%2c168.485%2c-573.807C49.933%2c-611.385%2c-69.597%2c-678.31%2c-189.784%2c-646.346C-310.715%2c-614.185%2c-388.88%2c-502.421%2c-467.127%2c-404.768C-542.745%2c-310.395%2c-635.538%2c-212.166%2c-634.578%2c-91.239C-633.638%2c27.157%2c-506.808%2c101.407%2c-462.235%2c211.096C-414.695%2c328.085%2c-462.695%2c488.305%2c-366.048%2c569.581C-270.409%2c650.009%2c-124.906%2c603.573%2c0%2c599.816' fill='%2300d5f1'%3e%3c/path%3e%3cpath d='M1440 1092.0720000000001C1560.531 1101.242 1681.602 1154.556 1794.734 1111.978 1917.394 1065.814 2026.0430000000001 971.702 2078.707 851.688 2131.109 732.2719999999999 2130.901 587.207 2077.15 468.392 2027.632 358.93399999999997 1888.2930000000001 330.2 1804.0430000000001 244.555 1727.385 166.627 1706.433 36.44100000000003 1607.18-9.363000000000056 1504.763-56.62800000000004 1386.24-22.144999999999982 1275.796 0.7740000000000009 1156.777 25.472999999999956 1009.0640000000001 27.136999999999944 942.179 128.63600000000002 874.49 231.35500000000002 963.1089999999999 367.405 953.3879999999999 490.036 944.553 601.491 856.949 704.683 888.004 812.088 920.019 922.812 1015.5450000000001 1008.377 1118.338 1060.516 1216.406 1110.258 1330.355 1083.73 1440 1092.0720000000001' fill='%23f5feff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1045'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1458' height='565' preserveAspectRatio='none' viewBox='0 0 1458 565'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1152%26quot%3b)' fill='none'%3e%3crect width='1458' height='565' x='0' y='0' fill='rgba(115%2c 239%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c399.146C92.236%2c403.284%2c191.043%2c467.93%2c270.504%2c420.912C349.711%2c374.044%2c356.846%2c262.754%2c380.72%2c173.869C401.191%2c97.655%2c404.623%2c21.349%2c398.968%2c-57.363C392.908%2c-141.718%2c405.35%2c-239.491%2c346.649%2c-300.373C288.046%2c-361.154%2c187.811%2c-340.108%2c106.049%2c-361.169C27.759%2c-381.335%2c-44.438%2c-437.083%2c-123.777%2c-421.547C-205.136%2c-405.615%2c-276.139%2c-347.736%2c-320.431%2c-277.655C-362.105%2c-211.715%2c-349.439%2c-128.996%2c-357.694%2c-51.429C-365.603%2c22.885%2c-384.478%2c95.133%2c-367.86%2c167.996C-348.534%2c252.728%2c-328.93%2c351.084%2c-255.344%2c397.323C-181.785%2c443.545%2c-86.789%2c395.253%2c0%2c399.146' fill='%2300d5f1'%3e%3c/path%3e%3cpath d='M1458 961.553C1536.483 963.527 1618.567 960.0609999999999 1684.499 917.44 1750.357 874.866 1781.8220000000001 799.015 1817.481 729.17 1854.708 656.255 1896.981 583.8 1896.638 501.933 1896.267 413.576 1870.3229999999999 324.51800000000003 1815.493 255.23000000000002 1759.438 184.394 1678.709 132.84500000000003 1590.216 114.71300000000002 1505.064 97.26499999999999 1421.451 132.026 1338.335 157.45999999999998 1256.164 182.60500000000002 1166.938 199.15499999999997 1108.471 262.131 1049.216 325.956 1010.758 415.092 1018.624 501.827 1026.07 583.929 1109.339 633.821 1148.746 706.231 1184.411 771.765 1181.171 858.727 1238.706 906.2280000000001 1298.0430000000001 955.217 1381.077 959.6179999999999 1458 961.553' fill='%23f5feff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1152'%3e%3crect width='1458' height='565' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1075%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(115%2c 239%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c372.75C78.796%2c372.556%2c164.855%2c402.264%2c231.24%2c359.816C297.643%2c317.356%2c309.503%2c227.955%2c340.065%2c155.303C369.636%2c85.007%2c422.089%2c16.249%2c407.23%2c-58.551C392.484%2c-132.782%2c305.793%2c-165.621%2c263.804%2c-228.587C213.174%2c-304.511%2c221.726%2c-432.197%2c136.431%2c-464.641C52.898%2c-496.415%2c-32.403%2c-416.787%2c-108.727%2c-370.289C-169.56%2c-333.229%2c-214.78%2c-280.232%2c-258.535%2c-224.021C-300.079%2c-170.65%2c-349.097%2c-118.5%2c-357.005%2c-51.33C-364.839%2c15.213%2c-320.543%2c73.388%2c-301.098%2c137.507C-278.004%2c213.659%2c-294.679%2c311.963%2c-231.972%2c360.956C-169.7%2c409.609%2c-79.025%2c372.945%2c0%2c372.75' fill='%2300d5f1'%3e%3c/path%3e%3cpath d='M1440 1246.152C1565.391 1283.0819999999999 1717.728 1226.008 1806.143 1129.73 1892.473 1035.722 1859.995 888.105 1883.931 762.736 1901.575 670.322 1930.876 583.838 1928.324 489.79 1925.492 385.41999999999996 1934.2269999999999 269.834 1868.357 188.827 1802.1109999999999 107.356 1682.253 106.048 1584.7 67.19600000000003 1475.163 23.572000000000003 1372.404-88.64499999999998 1259.855-53.51599999999996 1146.997-18.289999999999964 1135.51 139.76299999999998 1060.203 230.904 987.39 319.026 863.634 363.805 825.883 471.703 785.637 586.731 776.91 732.212 850.937 829.0160000000001 925.305 926.2660000000001 1090.49 877.631 1190.402 948.3820000000001 1298.284 1024.777 1313.193 1208.8049999999998 1440 1246.152' fill='%23f5feff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1075'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-sec{
+    background-color: #ffffff;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 50%);
+    border-radius: 0.5em;
+    margin-bottom: 5em;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.inputs{
+    margin: 1em 2em;
+    background-color:#f4f4f4 ;
+    padding: 1em;
+    border: solid #f4f4f4;
+}
+
+.subject{
+    width: 100%;
+}
+
+.message{
+    width: 100%;
+
+}
+
+.message-input{
+    height: 200px;
+    resize: none;
+}
+
+.email, .name{
+    flex: 1;
+}
+
+.submit-btn{
+    margin: 2em;
+    padding: 1em;
+    background-color:#222222 ;
+    color: #ffffff;
+    border: none;
+    width: 165px;
+    height: 50px ;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin:0 2em;
+    margin-top: 1em;
+    color: var(--section-text);
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:43em) {
+    .form-sec{
+        width: 90%;
+    }
+    .submit-btn{
+        width: 90%;
+    }
+    
+}
+
