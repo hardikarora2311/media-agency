@@ -5,6 +5,9 @@ import ServiceList from "../components/ServiceList"
 import { StaticImage } from "gatsby-plugin-image"
 import Responsive from "../components/Slider"
 import CustomArrows from "../components/Slider"
+import {HiOutlineMail} from "react-icons/hi"
+import {FiPhoneCall,FiInstagram} from "react-icons/fi"
+import {FaLinkedinIn} from "react-icons/fa"
 
 export default function Home() {
   return (
@@ -101,8 +104,9 @@ export default function Home() {
         </div>
         <h1>Get in Touch</h1>
         <hr></hr>
+        <p>Have a question or want to get a quote? Drop us a message!</p>
       </div>
-      <div className="form-sec">
+      {/* <div className="form-sec">
         <form action="" className="form">
           <div className="input-label name">
              <label for="name">Name</label>
@@ -128,7 +132,31 @@ export default function Home() {
 
 				  <button type="submit" class="submit-btn">Send Message</button>
 			  </form>
-		  </div>
+		  </div> */}
+
+
+      <div className="contact-wrapper">
+        <div className="wrapper-text">
+          <h1>We can't wait to hear from you!</h1>
+          <ul className="contact-list">
+            <li> <HiOutlineMail className="contact-icons"/>perceptionfilmsmedia@gmail.com</li>
+            <li><FiPhoneCall className="contact-icons"/> +91-7417161666</li>
+          </ul>
+          <div className="socials">
+            <FiInstagram className="social-icons"/><FaLinkedinIn className="social-icons"/>
+          </div>
+        </div>
+        <div className="wrapper-form">
+          <form action="" className="formm">
+            <input type="text" placeholder="Name*" className="inputss"/>
+            <input type="text" placeholder="Email*" className="inputss"/>
+            <input type="text" placeholder="Subject*" className="inputss"/>
+            <textarea name=" message" className="inputss msg" placeholder="Your Message*"></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+        
+      </div>
     </section>
 
 
